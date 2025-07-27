@@ -1,0 +1,78 @@
+body {
+    background-image: url('../img/16702c00-9253-4850-9ccb-f26d874eee29.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+  }
+  h1 {
+    font-family: Henny Penny;
+    font-size: 500px;
+    color: white;
+    opacity: 0.2;
+    position: absolute;
+    top: -350px;
+    left: 40px;
+}
+#new{
+    font-family: BN Karamel;
+    color: white;
+    font-size: 40px;
+    position: absolute;
+    top: 630px;
+    right: 80px;
+    border: 3px, white, solid;
+    border-radius: 55px;
+    padding: 30px;
+}
+
+#new:hover{
+    text-decoration: underline;
+    box-shadow: 0 0 15px white;
+    text-decoration-thickness: 3px;
+}
+p{
+    color: white;
+    position: absolute;
+    top: 70px;
+    right: 80px;
+    font-family: Bejerano;
+    font-size: 100px;
+}
+h4{
+    color: white;
+    position: absolute;
+    top: 250px;
+    right: 90px;
+    font-family: Henny Penny;
+    /* font-family: Savu; */
+    font-size: 90px;
+}
+h3 {
+    font-family: Calibri Light;
+    color: rgb(134, 133, 133);
+    font-size: 23px;
+}
+
+h2 {
+    font-family: Calibri Light;
+    color: rgb(134, 133, 133);
+    font-size: 30px;
+    text-shadow: 0 0 3px rgb(255, 255, 255);
+}
+
+h6 {
+    font-size: 17px;
+    color: rgb(152, 152, 152);
+    font-family: Calibri Light;
+}
+
+h5 {
+    font-size: 21px;
+    color: rgb(152, 152, 152);
+    font-family: Calibri Light;
+}
+
+img {
+    height: 25px;
+    width: auto;
+}

@@ -1,0 +1,49 @@
+body {
+    background-image: url('../img/16702c00-9253-4850-9ccb-f26d874eee29.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+  }
+h1{
+    font-family: Henny Penny;
+    font-size: 170px;
+    position: absolute;
+    top: -50px;
+    left: 400px;
+    color: white;
+    text-shadow: 0 0 20px white;
+}
+#new{
+    font-family: BN Karamel;
+    color: white;
+    font-size: 50px;
+    position: absolute;
+    top: 500px;
+    left: 610px;
+    border: 3px, white, solid;
+    border-radius: 55px;
+    padding: 30px;
+}
+
+#new:hover{
+    text-decoration: underline;
+    text-decoration-thickness: 3px;
+    box-shadow: 0 0 20px white;
+}
+#time{
+    color: white;
+    font-size: 60px;
+    font-family: Avia;
+    position: absolute;
+    top: 370px;
+    left: 670px;
+    text-shadow:  0 0 10px white;
+}
+h2{
+    color: rgb(255, 255, 255);
+    font-size: 50px;
+    font-family: BN Karamel;
+    position: absolute;
+    top: 250px;
+    left: 630px;
+}

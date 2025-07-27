@@ -1,0 +1,57 @@
+body {
+    background-image: url('../img/16702c00-9253-4850-9ccb-f26d874eee29.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+  }
+h1{
+    font-family: Henny Penny;
+    font-size: 200px;
+    position: absolute;
+    top: 5px;
+    left: 430px;
+    color: white;
+    text-shadow: 0 0 10px white;
+}
+#new{
+    font-family: BN Karamel;
+    color: white;
+    font-size: 50px;
+    position: absolute;
+    top: 620px;
+    left: 630px;
+    border: 3px, white, solid;
+    border-radius: 55px;
+    padding: 30px;
+}
+
+#new:hover{
+    text-decoration: underline;
+    text-decoration-thickness: 3px;
+    box-shadow: 0 0 20px white;
+}
+#time{
+    color: white;
+    font-size: 50px;
+    font-family: BN Karamel;
+    position: absolute;
+    top: 500px;
+    left: 680px;
+}
+#w{
+    color: white;
+    font-size: 70px;
+    font-family: BN Karamel;
+    position: absolute;
+    top: 500px;
+    left: 690px;
+}
+
+h2{
+    color: white;
+    font-size: 45px;
+    font-family: BN Karamel;
+    position: absolute;
+    top: 380px;
+    left: 630px;
+}

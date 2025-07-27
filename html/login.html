@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>התחברות למשחק</title>
+    <link rel="stylesheet" href="../css/login.css">
+</head>
+
+<body>
+    <h1>wordel</h1>
+    <center>
+        <div class="container">
+            <div class="login-content">
+                <form id="register-form">
+                    <br>
+                    <h2>Sign Up</h2>
+                    <input type="text" id="namesignup" placeholder="Username*" required class="i"/>
+                    <input type="text" id="emailsignup" placeholder="Email*" required class="i"/>
+                    <input type="password" id="passwordsignup" placeholder="Password*" required class="i"/>
+                    <p id="signUpMassage"></p>
+                    <button id="signup" class="btn">Sign up</button>
+                    <p>having an acount? <b id="log" class="links">log in</b></p>
+                </form>
+            </div>
+            <div class="login-content">
+                <form id="Login-form">
+                    <h2>Log in</h2>
+                    <input type="email" id="emaillogin" placeholder="Email*" required class="i"/>
+                    <input type="password" id="passwordlogin" placeholder="Password*" required class="i"/>
+                    <p id="logInMassage"></p>
+                    <button id="login" class="btn">Log in</button>
+                    <p>dont have an acount yet? let's <b id="sign" class="links">sign up</b></p>
+                </form>
+            </div>
+        </div>
+    </center>
+    <script src="../js/login.js"></script>
+</body>
+
+</html>

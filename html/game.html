@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>וורדל - נחש את המילה</title>
+    
+    <link rel="stylesheet" href="../css/game.css">
+</head>
+
+<body style="direction: rtl;">
+    <h2>wordel</h2>
+    <center>
+        <h1>wordel</h1>
+        <div
+            style="width: 420px; height: 620px; background-color: white; opacity: 0.5; border-radius: 20px; border: rgb(175, 175, 175), 3px, solid; position: absolute; top: 120px; left: 550px;">
+        </div>
+        <div style="position: absolute; top: 150px; left: 580px;">
+            <div class="guess" id="0">
+                <input type="text" maxlength="1" class="letter" id="00">
+                <input type="text" maxlength="1" class="letter" id="01">
+                <input type="text" maxlength="1" class="letter" id="02">
+                <input type="text" maxlength="1" class="letter" id="03">
+                <input type="text" maxlength="1" class="letter" id="04">
+            </div>
+            <br>
+            <div class="guess" id="1">
+                <input type="text" maxlength="1" class="letter" id="10" disabled="false">
+                <input type="text" maxlength="1" class="letter" id="11" disabled="false">
+                <input type="text" maxlength="1" class="letter" id="12" disabled="false">
+                <input type="text" maxlength="1" class="letter" id="13" disabled="false">
+                <input type="text" maxlength="1" class="letter" id="14" disabled="false">
+            </div>
+            <br>
+            <div class="guess" id="2">
+                <input type="text" maxlength="1" class="letter" id="20" disabled="false">
+                <input type="text" maxlength="1" class="letter" id="21" disabled="false">
+                <input type="text" maxlength="1" class="letter" id="22" disabled="false">
+                <input type="text" maxlength="1" class="letter" id="23" disabled="false">
+                <input type="text" maxlength="1" class="letter" id="24" disabled="false">
+            </div>
+            <br>
+            <div class="guess" id="3">
+                <input type="text" maxlength="1" class="letter" id="30" disabled="false">
+                <input type="text" maxlength="1" class="letter" id="31" disabled="false">
+                <input type="text" maxlength="1" class="letter" id="32" disabled="false">
+                <input type="text" maxlength="1" class="letter" id="33" disabled="false">
+                <input type="text" maxlength="1" class="letter" id="34" disabled="false">
+            </div>
+            <br>
+            <div class="guess" id="4">
+                <input type="text" maxlength="1" class="letter" id="40" disabled="false">
+                <input type="text" maxlength="1" class="letter" id="41" disabled="false">
+                <input type="text" maxlength="1" class="letter" id="42" disabled="false">
+                <input type="text" maxlength="1" class="letter" id="43" disabled="false">
+                <input type="text" maxlength="1" class="letter" id="44" disabled="false">
+            </div>
+            <br>
+            <div class="guess" id="5">
+                <input type="text" maxlength="1" class="letter" id="50" disabled="false">
+                <input type="text" maxlength="1" class="letter" id="51" disabled="false">
+                <input type="text" maxlength="1" class="letter" id="52" disabled="false">
+                <input type="text" maxlength="1" class="letter" id="53" disabled="false">
+                <input type="text" maxlength="1" class="letter" id="54" disabled="false">
+            </div><br><br>
+            <input type="submit" value="בדוק" id="submit">
+        </div>
+        <br>
+    </center>
+    <div id="timer">00:00</div>
+    <script src="../js/game.js"></script>
+</body>
+
+</html>
